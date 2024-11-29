@@ -1,0 +1,56 @@
+# Entornos virtuales
+venv/
+env/
+*.egg-info/
+
+# Archivos de Python compilados
+*.py[cod]
+__pycache__/
+*.so
+
+# Configuración de IDEs/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de logs
+*.log
+*.out
+*.err
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+*.~lock.*
+
+# Archivos de modelos de TensorFlow/Keras
+*.h5
+*.pb
+*.tflite
+*.keras
+saved_model/
+
+# Archivos temporales de datos
+*.csv~
+*.temp
+*.tmp
+
+# Configuración de Docker (opcional, si se usa)
+docker-compose.override.yml
+
+# Archivos relacionados con deployment
+*.env
+.venv/
+.env.*
+
+# Archivos de dependencias compiladas
+node_modules/
+dist/
+build/
+*.lock
+package-lock.json
+pip-log.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
