@@ -25,7 +25,6 @@ Thumbs.db
 *.~lock.*
 
 # Archivos de modelos de TensorFlow/Keras
-*.h5
 *.pb
 *.tflite
 *.keras
